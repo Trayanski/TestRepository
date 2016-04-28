@@ -4,13 +4,17 @@
 Repositories: Задачи
 
 1 - Да се създаде проект с GIT #
+
 2 - Да се направят промени и да се commit-нат #
+
 3 - Да се създаде нов branch. Да се направят промени в него и след това branch-a да се слее (merge) с master'a #
+
 4 - Да се направи rebase и merge с конфликти, които да се ресолвнат и да се определят разликите между 2'та подхода
 
  
 
 5 - Да се създаде tag #
+
 6 - Да се изследва и установи каква е разликата между rebase и merge #
 
 Merging is nice because it’s a non-destructive operation. 
@@ -25,6 +29,7 @@ If you don’t follow the "Golden Rule of Rebasing", re-writing project history 
 Rebasing loses the context provided by a merge commit—you can’t see when upstream changes were incorporated into the newBranch.
 
 7 - Да се check out-не проекта на друго място #
+
 8 - Да се определят разликите между централизирана и дистрибутирана система за управление на кода #
 
 Централизирана:
