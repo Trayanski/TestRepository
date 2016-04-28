@@ -30,15 +30,15 @@ Rebasing loses the context provided by a merge commit—you can’t see when ups
 Централизирана:
 All the revision control functions take place on a shared server.
 If two developers try to change the same file at the same time, without some method of managing access the developers may end up overwriting each other's work. Centralized revision control systems solve this problem in one of two different "source management models": file locking and version merging.
-    File Locking: 
-    Only one developer at a time has write access to the central "repository" copies of those files. 
-    Once one developer "checks out" a file, others can read that file, but no one else may change that file until that developer "checks in" the updated version (or cancels the checkout).
-    
-    Vresion Merging:
-    Most version control systems allow multiple developers to edit the same file at the same time.
-    The first developer to "check in" changes to the central repository always succeeds. 
-    The system may provide facilities to merge further changes into the central repository, and preserve the changes from the first developer when other developers check in.
-    
+
+- File Locking: 
+ Only one developer at a time has write access to the central "repository" copies of those files. 
+ Once one developer "checks out" a file, others can read that file, but no one else may change that file until that developer "checks in" the updated version (or cancels the checkout).
+- Vresion Merging:
+ Most version control systems allow multiple developers to edit the same file at the same time.
+ The first developer to "check in" changes to the central repository always succeeds. 
+ The system may provide facilities to merge further changes into the central repository, and preserve the changes from the first developer when other developers check in.
+
 Дистрибутирана:
 It conducts synchronization by exchanging patches (change-sets) from peer to peer. 
 Common operations (such as commits, viewing history, and reverting changes) are fast, because there is no need to communicate with a central server.
