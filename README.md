@@ -26,6 +26,7 @@ The major benefit of rebasing is that you get a much cleaner project history.
 Rebasing also results in a perfectly linear project history—you can follow the project all the way to the beginning without any forks.
 Rebasing makes it easier to navigate your project with commands like git log, git bisect, and gitk.
 If you don’t follow the "Golden Rule of Rebasing", re-writing project history can be potentially catastrophic for your collaboration workflow.
+***The golden rule of git rebase is to never use it on public branches.***
 Rebasing loses the context provided by a merge commit—you can’t see when upstream changes were incorporated into the newBranch.
 
 7 - Да се check out-не проекта на друго място #
